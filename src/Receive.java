@@ -30,12 +30,21 @@ public class Receive implements Runnable{
                 if(msg.contains("/help")){
                     PrintWriter out = new PrintWriter(client.getClientSocket().getOutputStream());
                     out.println("""
-                            /list -> to get the list of connected clients
-                            /help -> get all the commands
-                            /quit -> disconnect
-                            /whisper -> send a message to a specific client""");
+                            /list    -> To get the list of connected clients
+                            /help    -> Get all the commands
+                            /quit    -> Disconnect
+                            /whisper -> Send a message to a specific client""");
                     out.flush();
-                    System.out.println(client.getClientName() + " : " + msg);
+                    msg = in.readLine();
+                    continue;
+                }
+
+                if(msg.contains("/list")){
+                    PrintWriter out = new PrintWriter(client.getClientSocket().getOutputStream());
+                    for(ClientHandler client : Server.clients){
+                        out.println("/listCode " + client.getClientName());
+                        out.flush();
+                    }
                     msg = in.readLine();
                     continue;
                 }

@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87844e51-7b1c-4c40-a51a-41ce0c9751ce" name="Changes" comment="Exercise Done">
-      <change afterPath="$PROJECT_DIR$/.idea/GrepConsole.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClientReceive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClientSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Receive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Server.java" afterDir="false" />
+    <list default="true" id="87844e51-7b1c-4c40-a51a-41ce0c9751ce" name="Changes" comment="New implementation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChatClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChatServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClientReceive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClientReceive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Receive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Receive.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673448321596</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="New implementation">
+      <created>1674056204843</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674056204843</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -87,7 +85,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Exercise Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercise Done" />
+    <MESSAGE value="New implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="New implementation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

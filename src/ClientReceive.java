@@ -33,6 +33,15 @@ public class ClientReceive implements Runnable{
                     msg = in.readLine();
                     continue;
                 }
+                if(msg.contains("/listCode")){
+                    String[] msgSplit = msg.split(" ");
+                    for(int i = 1; i < msgSplit.length; i++){
+                        System.out.print(msgSplit[i] + " ");
+                    }
+                    System.out.println();
+                    msg = in.readLine();
+                    continue;
+                }
                 System.out.println("Server : " + msg);
                 msg = in.readLine();
             }
